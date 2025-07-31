@@ -10,7 +10,7 @@ Click GIF below to watch a short video quickstart:
 
 ## Overview
 
-This app demonstrates how to integrate AI agents into a React Native application using the Cactus framework. The app features a text input where AI inference is automatically triggered each time you type a period (`.`), allowing for real-time AI assistance and suggestions.
+This app demonstrates how to integrate local AI agents into a React Native application using the Cactus framework. The app features a text input where AI inference is automatically triggered each time you type a period (`.`), allowing for real-time AI assistance and suggestions.
 
 ## How It Works
 
