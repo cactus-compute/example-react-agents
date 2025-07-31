@@ -32,7 +32,7 @@ Each tool suggestion appears as a recommended action that you can accept or dism
 
 2. Start the development server:
    ```bash
-   npx expo start
+   npx expo run
    ```
 
 3. Run on your preferred platform:
