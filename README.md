@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Cactus Productivity Example
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native demo app showcasing the CactusAgent class for AI-powered productivity features.
 
-## Get started
+## Overview
 
-1. Install dependencies
+This app demonstrates how to integrate AI agents into a React Native application using the Cactus framework. The app features a text input where AI inference is automatically triggered each time you type a period (`.`), allowing for real-time AI assistance and suggestions.
 
+## How It Works
+
+1. Type text into the app's text input field
+2. Each time you enter a period (`.`), the CactusAgent triggers inference
+3. The AI processes your input and provides relevant suggestions or responses
+4. Continue typing to see real-time AI assistance
+
+## Agent Tools
+
+The CactusAgent has access to three productivity tools:
+
+- **Set Reminder**: Creates reminders for specific dates and times based on your input
+- **Write Draft Email**: Generates draft emails with suggested subjects when appropriate
+- **Add To-Do**: Creates to-do items from tasks mentioned in your text
+
+Each tool suggestion appears as a recommended action that you can accept or dismiss.
+
+## Setup
+
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. Start the development server:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run on your preferred platform:
+   - iOS Simulator
+   - Android Emulator  
+   - Physical device with Expo Go
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This is an Expo project with file-based routing.
