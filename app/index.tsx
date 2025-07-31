@@ -40,7 +40,7 @@ export default function HomeScreen() {
         n_gpu_layers: Platform.OS === 'ios' ? 99 : 0
       });
       
-      if (error || !agent) {
+      if (error || !initializedAgent) {
         console.error('Failed to initialize CactusAgent:', error?.message);
         return;
       }
