@@ -2,6 +2,12 @@
 
 A React Native demo app showcasing the CactusAgent class for AI-powered productivity features.
 
+## Quickstart
+
+Click GIF below to watch a short video quickstart:
+
+[![Cactus Agents for React Native 🌵](https://github.com/user-attachments/assets/4d809fc1-6e95-484b-ad79-afad88d5ffe4)](https://www.tella.tv/video/cactus-agents-for-react-native-021x)
+
 ## Overview
 
 This app demonstrates how to integrate AI agents into a React Native application using the Cactus framework. The app features a text input where AI inference is automatically triggered each time you type a period (`.`), allowing for real-time AI assistance and suggestions.
