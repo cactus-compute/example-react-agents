@@ -1,4 +1,4 @@
-# Cactus Productivity Example
+# Cactus Agent Example App
 
 A React Native demo app showcasing the CactusAgent class for AI-powered productivity features.
 
